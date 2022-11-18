@@ -1,0 +1,47 @@
+.wrapper {
+    width:100%;
+    margin: auto;
+    padding: 1rem;;
+}
+
+.dollarImg{
+    margin: 3.05rem 0.8rem;
+    position: absolute;
+}
+
+.input{
+    width:80%;
+    height: 3rem;
+    font-size: 1.5rem;
+    color:#00474B;
+    font-family: 'Space Mono', monospace;
+    border: none;
+    border-radius: 0.5rem;
+    outline-color: #26C2AE;
+    appearance: none;}
+    ::placeholder{
+        color: #5E7A7D;
+        opacity:0.7;
+        padding-right: 0.5rem;
+    }
+    .label{
+        font-family: 'Space Mono', monospace;
+        font-size: 1rem;
+        line-height: 2rem;
+        color: #5E7A7D;
+        
+    }
+
+
+
+    
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+    
+    
+    input[type=number] {
+      -moz-appearance: textfield;
+    }

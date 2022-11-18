@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700&family=Outfit:wght@200;400;600&family=Space+Mono:wght@700&display=swap');
+.App{
+    display: flex;
+    flex-direction: row;
+    width:60%;
+    height:auto;
+    margin: 15% auto;
+    background-color: aliceblue;
+    align-content: center;
+    border-radius: 1.5rem;
+    padding:1rem;
+    margin-top: 2.5rem;
+    /* padding-top: 0; */
+}
+
+.heading{
+    font-size: 1.5rem;
+    font-family: 'Space Mono', monospace;
+    text-align: center;
+    margin:10%;
+    color: hsl(186, 14%, 43%);
+    letter-spacing: 0.4rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
