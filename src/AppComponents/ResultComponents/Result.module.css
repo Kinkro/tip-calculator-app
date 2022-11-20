@@ -1,0 +1,28 @@
+.container{
+    padding-top: 1.5rem;
+    width: 50%;
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 1rem;
+    display: flex;
+    align-content:space-between ;
+    flex-direction: column;
+}
+
+.reset{
+    background: #26C2AE;
+    border-radius: 5px;  
+    width:80%;
+    height: 2.5rem;
+    margin:auto;
+    margin-bottom: 2rem;
+    border-style: none;
+    color:#00474B;
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+.reset:hover{
+    
+    background-color: #9FE8DF;
+}

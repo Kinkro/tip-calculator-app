@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2.5rem;;
+}
+
+
+.heading{
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #FFFFFF;
+
+}
+
+.person{
+    margin-top: 0;
+    color:#7F9D9F;
+    line-height: 1.2rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.total{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 4.5rem;
+    /* text-align: right; */
+    letter-spacing: -1px;
+    color: #26C2AE; 
+}

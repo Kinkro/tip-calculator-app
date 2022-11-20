@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 1rem;
+    width:90%;
+    justify-content: space-between;
+
+}
+.heading{
+    font-family: 'Space Mono', monospace;
+    font-size: 1rem;
+    line-height: 2rem;
+    color: #5E7A7D;
+    padding-left: 1rem;
+}

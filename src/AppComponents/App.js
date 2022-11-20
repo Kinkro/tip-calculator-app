@@ -1,5 +1,6 @@
-import Calculator from "./Calculator";
+import Calculator from "./CalculatorComponents/Calculator";
 import styles from "./App.module.css";
+import Result from "./ResultComponents/Result";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       </h1>
       <div className={styles.App}>
         <Calculator />
-        {/* <Result /> */}
+        <Result />
       </div>
     </>
   );

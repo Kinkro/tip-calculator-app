@@ -1,16 +1,18 @@
 .wrapper {
-    width:100%;
+    width:90%;
     margin: auto;
-    padding: 1rem;;
+    padding: 1rem;
+    position: relative;
 }
 
 .dollarImg{
-    margin: 3.05rem 0.8rem;
+    margin: 4.9rem 0.8rem;
     position: absolute;
 }
 
 .input{
-    width:80%;
+    width:100%;
+    /* position: relative; */
     height: 3rem;
     font-size: 1.5rem;
     color:#00474B;
@@ -18,7 +20,10 @@
     border: none;
     border-radius: 0.5rem;
     outline-color: #26C2AE;
-    appearance: none;}
+    padding-top: 0;
+    margin-top: 0;
+    /* appearance: none; */
+}
     ::placeholder{
         color: #5E7A7D;
         opacity:0.7;
@@ -27,14 +32,26 @@
     .label{
         font-family: 'Space Mono', monospace;
         font-size: 1rem;
-        line-height: 2rem;
         color: #5E7A7D;
-        
+        margin-bottom: 0;
+        padding: 1.2rem;
     }
 
-
-
+    .textContainer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
     
+    .warning{
+        font-family: 'Space Mono', monospace;
+        /* margin-bottom: 0; */
+        font-size: 1rem;
+        padding: 0.5rem;
+        color: red;
+    }
+
     input::-webkit-outer-spin-button,
     input::-webkit-inner-spin-button {
       -webkit-appearance: none;
