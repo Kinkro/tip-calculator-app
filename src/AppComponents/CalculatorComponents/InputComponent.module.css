@@ -5,11 +5,15 @@
     position: relative;
 }
 
-.dollarImg{
-    margin: 4.9rem 0.8rem;
+.icon{
+    margin:0.8rem;
     position: absolute;
+    pointer-events: none;
 }
+.inputContainer{
+    position:relative;
 
+}
 .input{
     width:100%;
     /* position: relative; */
@@ -55,10 +59,12 @@
     input::-webkit-outer-spin-button,
     input::-webkit-inner-spin-button {
       -webkit-appearance: none;
+      appearance: none;
       margin: 0;
     }
     
     
     input[type=number] {
       -moz-appearance: textfield;
+      appearance: none;
     }

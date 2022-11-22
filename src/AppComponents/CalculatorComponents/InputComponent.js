@@ -1,23 +1,28 @@
 import styles from "./InputComponent.module.css";
 // import { useState, useEffect } from "react";
 
-function InputComponent({ name, imgurl }) {
+function InputComponent({ name, imgurl, change, value }) {
   return (
     <div className={styles.wrapper}>
-      <img className={styles.dollarImg} src={imgurl} alt="$" />
       <div className={styles.textContainer}>
         <label className={styles.label} htmlFor={name}>
           {name}
         </label>
       </div>
-      <input
-        className={styles.input}
-        dir="rtl"
-        placeholder="0"
-        type="number"
-        name="bill"
-        id="bill"
-      />
+      <div className={styles.inputContainer}>
+        <img className={styles.icon} src={imgurl} alt="$" />
+
+        <input
+          className={styles.input}
+          dir="rtl"
+          placeholder="0"
+          type="number"
+          name={name}
+          value={value}
+          id={name}
+          onChange={change}
+        />
+      </div>
     </div>
   );
 }
